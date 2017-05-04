@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B230ECA21DEC33270067AE98 /* StrongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B230ECA11DEC33270067AE98 /* StrongCell.xib */; };
+		B230ECA41DEC335E0067AE98 /* StrongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B230ECA31DEC335E0067AE98 /* StrongTableViewCell.swift */; };
+		B230ECA61DEC3CE00067AE98 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B230ECA51DEC3CE00067AE98 /* SimpleTableViewCell.swift */; };
+		B240A6411DE5D21200945055 /* SimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B240A6401DE5D21200945055 /* SimpleCell.xib */; };
+		B240A6481DE7069B00945055 /* TyreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240A6461DE7069B00945055 /* TyreViewController.swift */; };
+		B240A6491DE7069B00945055 /* TyreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B240A6471DE7069B00945055 /* TyreViewController.xib */; };
+		B243E6821DE5AF01007AD7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E6811DE5AF01007AD7A5 /* AppDelegate.swift */; };
+		B243E6891DE5AF01007AD7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B243E6881DE5AF01007AD7A5 /* Assets.xcassets */; };
+		B2829D251DF088A300446F38 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2829D231DF088A300446F38 /* TableViewCell.swift */; };
+		B2829D261DF088A300446F38 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2829D241DF088A300446F38 /* TableViewCell.xib */; };
+		B2873BF21DE5CFDC0029089B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2873BF01DE5CFDC0029089B /* StartViewController.swift */; };
+		B2873BF31DE5CFDC0029089B /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2873BF11DE5CFDC0029089B /* StartViewController.xib */; };
+		B2873BF61DE5D0060029089B /* EngineSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2873BF41DE5D0060029089B /* EngineSizeViewController.swift */; };
+		B2873BF71DE5D0060029089B /* EngineSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2873BF51DE5D0060029089B /* EngineSizeViewController.xib */; };
+		B2E2894E1E0027D8008DBD5E /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2894C1E0027D8008DBD5E /* NewTableViewCell.swift */; };
+		B2E2894F1E0027D8008DBD5E /* NewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E2894D1E0027D8008DBD5E /* NewTableViewCell.xib */; };
+		B2E289511E0036E3008DBD5E /* NewCellStringInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E289501E0036E3008DBD5E /* NewCellStringInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B230ECA11DEC33270067AE98 /* StrongCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StrongCell.xib; path = ../StrongCell.xib; sourceTree = "<group>"; };
+		B230ECA31DEC335E0067AE98 /* StrongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongTableViewCell.swift; sourceTree = "<group>"; };
+		B230ECA51DEC3CE00067AE98 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		B240A6401DE5D21200945055 /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCell.xib; sourceTree = "<group>"; };
+		B240A6461DE7069B00945055 /* TyreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TyreViewController.swift; sourceTree = "<group>"; };
+		B240A6471DE7069B00945055 /* TyreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TyreViewController.xib; sourceTree = "<group>"; };
+		B243E67E1DE5AF01007AD7A5 /* Mitsubishi Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mitsubishi Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B243E6811DE5AF01007AD7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B243E6881DE5AF01007AD7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B243E68D1DE5AF01007AD7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2829D231DF088A300446F38 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../TableViewCell.swift; sourceTree = "<group>"; };
+		B2829D241DF088A300446F38 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = ../TableViewCell.xib; sourceTree = "<group>"; };
+		B2873BF01DE5CFDC0029089B /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B2873BF11DE5CFDC0029089B /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		B2873BF41DE5D0060029089B /* EngineSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineSizeViewController.swift; sourceTree = "<group>"; };
+		B2873BF51DE5D0060029089B /* EngineSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EngineSizeViewController.xib; sourceTree = "<group>"; };
+		B2E2894C1E0027D8008DBD5E /* NewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
+		B2E2894D1E0027D8008DBD5E /* NewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTableViewCell.xib; sourceTree = "<group>"; };
+		B2E289501E0036E3008DBD5E /* NewCellStringInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCellStringInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B243E67B1DE5AF01007AD7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B240A64A1DE706AD00945055 /* CellAndSupport */ = {
+			isa = PBXGroup;
+			children = (
+				B243E6881DE5AF01007AD7A5 /* Assets.xcassets */,
+				B230ECA51DEC3CE00067AE98 /* SimpleTableViewCell.swift */,
+				B240A6401DE5D21200945055 /* SimpleCell.xib */,
+				B230ECA31DEC335E0067AE98 /* StrongTableViewCell.swift */,
+				B2E2894C1E0027D8008DBD5E /* NewTableViewCell.swift */,
+				B2E2894D1E0027D8008DBD5E /* NewTableViewCell.xib */,
+				B230ECA11DEC33270067AE98 /* StrongCell.xib */,
+				B243E68D1DE5AF01007AD7A5 /* Info.plist */,
+				B2829D231DF088A300446F38 /* TableViewCell.swift */,
+				B2829D241DF088A300446F38 /* TableViewCell.xib */,
+			);
+			name = CellAndSupport;
+			sourceTree = "<group>";
+		};
+		B243E6751DE5AF01007AD7A5 = {
+			isa = PBXGroup;
+			children = (
+				B243E6801DE5AF01007AD7A5 /* Mitsubishi Engine */,
+				B243E67F1DE5AF01007AD7A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B243E67F1DE5AF01007AD7A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B243E67E1DE5AF01007AD7A5 /* Mitsubishi Engine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B243E6801DE5AF01007AD7A5 /* Mitsubishi Engine */ = {
+			isa = PBXGroup;
+			children = (
+				B243E6811DE5AF01007AD7A5 /* AppDelegate.swift */,
+				B2873BF01DE5CFDC0029089B /* StartViewController.swift */,
+				B2873BF11DE5CFDC0029089B /* StartViewController.xib */,
+				B2E289501E0036E3008DBD5E /* NewCellStringInfo.swift */,
+				B2873BF41DE5D0060029089B /* EngineSizeViewController.swift */,
+				B2873BF51DE5D0060029089B /* EngineSizeViewController.xib */,
+				B240A6461DE7069B00945055 /* TyreViewController.swift */,
+				B240A6471DE7069B00945055 /* TyreViewController.xib */,
+				B240A64A1DE706AD00945055 /* CellAndSupport */,
+			);
+			path = "Mitsubishi Engine";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B243E67D1DE5AF01007AD7A5 /* Mitsubishi Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B243E6901DE5AF01007AD7A5 /* Build configuration list for PBXNativeTarget "Mitsubishi Engine" */;
+			buildPhases = (
+				B243E67A1DE5AF01007AD7A5 /* Sources */,
+				B243E67B1DE5AF01007AD7A5 /* Frameworks */,
+				B243E67C1DE5AF01007AD7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mitsubishi Engine";
+			productName = "Mitsubishi Engine";
+			productReference = B243E67E1DE5AF01007AD7A5 /* Mitsubishi Engine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B243E6761DE5AF01007AD7A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kiril;
+				TargetAttributes = {
+					B243E67D1DE5AF01007AD7A5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MRU8KBHFTH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B243E6791DE5AF01007AD7A5 /* Build configuration list for PBXProject "Mitsubishi Engine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B243E6751DE5AF01007AD7A5;
+			productRefGroup = B243E67F1DE5AF01007AD7A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B243E67D1DE5AF01007AD7A5 /* Mitsubishi Engine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B243E67C1DE5AF01007AD7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2873BF71DE5D0060029089B /* EngineSizeViewController.xib in Resources */,
+				B240A6411DE5D21200945055 /* SimpleCell.xib in Resources */,
+				B2E2894F1E0027D8008DBD5E /* NewTableViewCell.xib in Resources */,
+				B2829D261DF088A300446F38 /* TableViewCell.xib in Resources */,
+				B240A6491DE7069B00945055 /* TyreViewController.xib in Resources */,
+				B2873BF31DE5CFDC0029089B /* StartViewController.xib in Resources */,
+				B230ECA21DEC33270067AE98 /* StrongCell.xib in Resources */,
+				B243E6891DE5AF01007AD7A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B243E67A1DE5AF01007AD7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B240A6481DE7069B00945055 /* TyreViewController.swift in Sources */,
+				B2873BF61DE5D0060029089B /* EngineSizeViewController.swift in Sources */,
+				B2E289511E0036E3008DBD5E /* NewCellStringInfo.swift in Sources */,
+				B243E6821DE5AF01007AD7A5 /* AppDelegate.swift in Sources */,
+				B230ECA61DEC3CE00067AE98 /* SimpleTableViewCell.swift in Sources */,
+				B230ECA41DEC335E0067AE98 /* StrongTableViewCell.swift in Sources */,
+				B2829D251DF088A300446F38 /* TableViewCell.swift in Sources */,
+				B2E2894E1E0027D8008DBD5E /* NewTableViewCell.swift in Sources */,
+				B2873BF21DE5CFDC0029089B /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B243E68E1DE5AF01007AD7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B243E68F1DE5AF01007AD7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B243E6911DE5AF01007AD7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MRU8KBHFTH;
+				INFOPLIST_FILE = "Mitsubishi Engine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JustMeMySelfAndI.Mitsubishi-Engine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B243E6921DE5AF01007AD7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MRU8KBHFTH;
+				INFOPLIST_FILE = "Mitsubishi Engine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JustMeMySelfAndI.Mitsubishi-Engine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B243E6791DE5AF01007AD7A5 /* Build configuration list for PBXProject "Mitsubishi Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B243E68E1DE5AF01007AD7A5 /* Debug */,
+				B243E68F1DE5AF01007AD7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B243E6901DE5AF01007AD7A5 /* Build configuration list for PBXNativeTarget "Mitsubishi Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B243E6911DE5AF01007AD7A5 /* Debug */,
+				B243E6921DE5AF01007AD7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B243E6761DE5AF01007AD7A5 /* Project object */;
+}
